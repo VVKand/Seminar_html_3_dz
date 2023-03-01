@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./fonts/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./fonts/Gilroy-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("./fonts/Gilroy-Semibold.woff2");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -16,11 +31,37 @@ img {
 }
 
 header {
-  margin-bottom: 84px;
+  display: flex;
+  margin-top: 14px;
+  margin-bottom: 21px;
+  margin-left: 18px;
+  margin-right: 12;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img__logo {
+  margin-top: 26px;
+  margin-left: 59px;
+  margin-bottom: 48px;
 }
 
 .navigation {
-  padding: 11px 0 12px 0;
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  width: 556px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-bottom: 48px;
+  margin-right: 200px;
+  padding-right: 14px;
+  padding-left: 9px;
+  
 }
 
 .navigation a {
@@ -30,21 +71,43 @@ header {
 }
 
 main {
-  margin-bottom: 162px;
+  margin-bottom: 53px;
+  margin-left: 18px;
+  margin-right: 27px;
+}
+
+.content__wraper {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 16px;
+
 }
 
 .content h1 {
+  width: 522px;
+  margin-left: 75px;
+  font-family: "Gilroy-Bold";
   font-size: 60px;
   line-height: 70px;
   color: #000000;
+  margin-top: 59px;
+  margin-left: 41px;
+  margin-right: 16px;
   margin-bottom: 17px;
 }
 
 .content p {
+  width: 466px;
+  font-family: "Gilroy-Medium";
   font-size: 20px;
   line-height: 23px;
   color: #888888;
   margin-bottom: 37px;
+  margin-left: 41px;
+}
+
+.btn__list {
+  margin-left: 20px;
 }
 
 .btn {
@@ -55,10 +118,24 @@ main {
   border-radius: 50px;
   color: #ffffff;
   padding: 15px 35px 16px 36px;
+  margin-left: 23px;
   cursor: pointer;
 }
 
-.conteiner {
-  width: 1170px;
-  margin: 0 auto;
+.main__pic {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
+.logos {
+  display: flex;
+  margin-left: 34px;
+  padding-top: 59px;
+  padding-left: 13px;
+  justify-content: space-between;
+}
+
+.center {
+  padding-left: calc(50% - 660px);
+  padding-right: calc(50% - 660px);
 }
