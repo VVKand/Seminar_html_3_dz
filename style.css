@@ -50,9 +50,10 @@ header {
 }
 
 .navigation {
-  font-family: "Gilroy-SemiBold";
+  font-family: "Gilroy-Medium";
   font-size: 14px;
   line-height: 16px;
+  color: #000000;
   width: 556px;
   display: flex;
   justify-content: space-between;
@@ -61,10 +62,10 @@ header {
   margin-right: 200px;
   padding-right: 14px;
   padding-left: 9px;
-  
 }
 
-.navigation a {
+.nav__home {
+  font-family: "Gilroy-SemiBold";
   font-size: 14px;
   line-height: 16px;
   color: #f25822;
@@ -80,7 +81,6 @@ main {
   display: flex;
   margin-top: 15px;
   margin-left: 16px;
-
 }
 
 .content h1 {
@@ -111,6 +111,7 @@ main {
 }
 
 .btn {
+  font-family: "Gilroy-Bold";
   font-size: 15px;
   line-height: 18px;
   background: #f25822;
