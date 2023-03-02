@@ -13,6 +13,11 @@
   src: url("./fonts/Gilroy-Semibold.woff2");
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./fonts/Gilroy-Regular.woff2");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -108,6 +113,9 @@ main {
 
 .btn__list {
   margin-left: 20px;
+  width: 374px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .btn {
@@ -120,6 +128,17 @@ main {
   color: #ffffff;
   padding: 15px 35px 16px 36px;
   margin-left: 23px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__vid {
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  background: #ffffff;
+  color: #aaaaaa;
   cursor: pointer;
 }
 
@@ -136,7 +155,131 @@ main {
   justify-content: space-between;
 }
 
+article {
+  margin-bottom: 200px;
+}
+
 .center {
   padding-left: calc(50% - 660px);
   padding-right: calc(50% - 660px);
+}
+
+/* .center_1 {
+  padding-left: calc(50% - 960px);
+  padding-right: calc(50% - 960px);
+} */
+
+cection {
+  margin-bottom: 97px;
+}
+
+.card__list {
+  display: flex;
+  gap: 60px;
+  padding-left: 104px;
+  /* margin: 404px 100px 100px 401px; */
+}
+
+.card {
+  margin-top: 140px;
+}
+
+.card h1 {
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.card p {
+  width: 310px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+.card a {
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  color: #000000;
+}
+
+.card__big {
+  background: #ffffff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  padding: 40px 30px 25px 30px;
+  margin-top: 100px;
+}
+
+.otst {
+  margin-bottom: 100px;
+}
+
+.par {
+  text-align: center;
+}
+.par h1 {
+  margin-top: 92px;
+  margin-bottom: 19px;
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.par p {
+  margin-bottom: 55px;
+  padding: 0 300px;
+  /* width: 682px; */
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  text-align: center;
+  color: #666666;
+}
+
+.card__list__2 {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  padding-left: 104px;
+}
+
+.card__2 h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.card__2 p {
+  width: 310px;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  text-align: center;
+  color: #aaaaaa;
+  margin-bottom: 54px;
+}
+
+.card__2__shadow {
+  background: #ffffff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card__2__mar {
+  margin-top: 10px;
+}
+
+.btn__lean {
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  border: none;
+  padding: 15px 46px 15px 36px;
+  cursor: pointer;
 }
